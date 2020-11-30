@@ -1,0 +1,164 @@
+name: scarf_app_model_1
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+
+  shared_preferences: ^0.5.12+4
+  flutter_swiper: ^1.1.6
+  states_rebuilder: ^3.2.0
+  dio: ^3.0.10
+  shimmer: ^1.1.2
+  cached_network_image: ^2.3.3
+  pinput: ^0.2.6
+  flutter_xlider: ^3.4.0
+  percent_indicator: ^2.1.8
+  smooth_star_rating: ^1.1.1
+  bmnav: ^0.3.4
+  intro_views_flutter: ^2.8.2
+  google_fonts: ^1.1.1
+  google_fonts_arabic: ^1.1.7
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  assets: [
+            "assets/mada.JPG",
+            "assets/stc.JPG",
+            "assets/visa.JPG",
+            "assets/nav bar.png",
+            "assets/icon-rewards.png",
+            "assets/cart-icon.png",
+            "assets/design/Group 1399.png",
+            "assets/design/Group 1398.png",
+            "assets/design/Group 1397.png",
+            "assets/design/Group 1396.png",
+            "assets/user.png",
+            "assets/unnamed.jpg",
+            "assets/travel.PNG",
+            "assets/time_arrival.PNG",
+            "assets/share-icon.png",
+            "assets/secure.PNG",
+            "assets/price-slider.png",
+            "assets/phone-icon.png",
+            "assets/paypal.png",
+            "assets/menu-icon.png",
+            "assets/lock-help.png",
+            "assets/lock.png",
+            "assets/IMG-20200618-WA0022-599x700.jpg",
+            "assets/icon-user.png",
+            "assets/icon-top.png",
+            "assets/icon-shield.png",
+            "assets/icon-questions.png",
+            "assets/icon-payment.png",
+            "assets/icon-logout.png",
+            "assets/icon-layer.png",
+            "assets/icon-edit.png",
+            "assets/icon-crown.png",
+            "assets/icon-coupon.png",
+            "assets/icon-cog.png",
+            "assets/icon-card.png",
+            "assets/icon-box.png",
+            "assets/icon-bell.png",
+            "assets/icon-bag.png",
+            "assets/home.png",
+            "assets/gradient-overlay.png",
+            "assets/filter-icon.png",
+            "assets/enlarge-icon.png",
+            "assets/empty-cart.png",
+            "assets/Component 109.png",
+            "assets/Component 104 – 1.png",
+            "assets/Component 103.png",
+            "assets/Component 102.png",
+            "assets/Component 101.png",
+            "assets/Component 100.png",
+            "assets/Component 99.png",
+            "assets/Component 98.png",
+            "assets/Component 96.png",
+            "assets/Component 95.png",
+            "assets/Component 94.png",
+            "assets/Component 93.png",
+            "assets/Component 92.png",
+            "assets/Component 89.png",
+            "assets/completed-illustration.png",
+            "assets/circle.png",
+            "assets/cash-on-delivery.png",
+            "assets/Capture.PNG",
+            "assets/btn-right.png",
+            "assets/btn-close.png",
+            "assets/btn-back.png",
+            "assets/banner_gray.png",
+            "assets/bank-transfer.png",
+            "assets/badge-new.png",
+            "assets/4627-5.jpg",
+    "assets/4-30.jpg",
+
+
+  ]
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
